@@ -21,7 +21,7 @@ ZBaduk offers 4 tools.
 
 ### Purpose
 
-The smart review tools are to revie 
+The smart review tool uses LeeLa Zero to review your go game records.
 
 ### Connecting
 
