@@ -77,5 +77,13 @@ Once you are connected, 2 buttons become available:
 
 2) "Analyze full game" : gthers statistics for the entire game record, in the background. The goal of this mode is to gather enough data to create a smooth winrate chart. The winrate chart is useful for detecting big winrate swings, and thus can be used to quickly detect the losing/winning moves of the game record.
 
+### Reading statistics
 
+Statistics are shown in a table, and as an overlay on the board.
 
+![Reading statistics](https://user-images.githubusercontent.com/20482760/58881888-6c090100-86db-11e9-9916-51230b687c3d.png)
+
+The winrate is always shown from the perspective of the active player. _(e.g. If black has a winrate of 40%, but it's white's turn, then it will show 60%.)_
+
+The most prefered move is shown in green, the least prefered one in red. It will use gradient colors for values in between.
+Note: the prefered move is not always the one with the highest winrate, the number of playouts is actually more important as it gives more certainty of a win.
