@@ -47,3 +47,35 @@ There are several ways, to navigate through game files.
 2) You can click the chart or the game tree
 
 ![Basic navigation](https://user-images.githubusercontent.com/20482760/58879683-7e347080-86d6-11e9-983f-b015dec80614.png)
+
+### Add / Remove variations
+
+To add variations, you can simply click the board.
+
+![Add variations](https://user-images.githubusercontent.com/20482760/58880407-14b56180-86d8-11e9-8252-79162744cfa3.png)
+
+To remove a variation, you select the start of the variation, and click the remove button in the general toolbar.
+
+![Remove variation](https://user-images.githubusercontent.com/20482760/58880621-a1601f80-86d8-11e9-92cb-d826555b5529.png)
+
+If you tried to remove a big branch, then a confirmation will be asked. This protects us against accidentally removing the wrong branch.
+
+![Remove warning](https://user-images.githubusercontent.com/20482760/58881380-63fc9180-86da-11e9-9fe6-051b1cf96b3e.png)
+
+### Use AI to analyze your games
+
+To use AI, you should first be connected to an AI server. This is what the "connection dialog" was about at startup.
+To verify quickly whether you are connected, check the color of the connect button.
+
+![Connection status](https://user-images.githubusercontent.com/20482760/58880965-6d392e80-86d9-11e9-949b-fa7ac7016e66.png)
+
+Once you are connected, 2 buttons become available:
+
+![Connection modes](https://user-images.githubusercontent.com/20482760/58881074-b12c3380-86d9-11e9-9562-3c4ed81ee91a.png)
+
+1) "Analyze this" : gathers statistics for the game record position that you are looking at. If you navigate through the game record, the computer analysis will follow you, and will always calculate for the visible position.
+
+2) "Analyze full game" : gthers statistics for the entire game record, in the background. The goal of this mode is to gather enough data to create a smooth winrate chart. The winrate chart is useful for detecting big winrate swings, and thus can be used to quickly detect the losing/winning moves of the game record.
+
+
+
