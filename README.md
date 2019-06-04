@@ -39,3 +39,11 @@ This is an overview that shows the names of the different parts of the layout. W
 
 ![Workspace components](https://user-images.githubusercontent.com/20482760/58879352-c8692200-86d5-11e9-8532-34a1e9bcf146.png)
 
+### Navigation
+
+There are several ways, to navigate through game files.
+
+1) You can use the navigation buttons underneath the board.
+2) You can click the chart or the game tree
+
+![Basic navigation](https://user-images.githubusercontent.com/20482760/58879683-7e347080-86d6-11e9-983f-b015dec80614.png)
