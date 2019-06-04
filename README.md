@@ -6,7 +6,7 @@ This is the documentation of the website https://www.zbaduk.com which is dedicat
 
 Visit the website, click Login.
 Underneath the login button there is a registration link.
-Or go directly to https://www.zbaduk.com/registration
+Or go directly to https://www.zbaduk.com/register
 
 ## Overview of tools
 
