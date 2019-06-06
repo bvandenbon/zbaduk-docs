@@ -87,3 +87,12 @@ The winrate is always shown from the perspective of the active player. _(e.g. If
 
 The most prefered move is shown in green, the least prefered one in red. It will use gradient colors for values in between.
 Note: the prefered move is not always the one with the highest winrate, the number of playouts is actually more important as it gives more certainty of a win.
+
+### Zoom
+
+ZBaduk tries to adjust its user interface to get the most out of your system. It will re-arrange items to make the board itself as big as possible. 
+
+Having said that, on smart phones it can be clumsy to click the correct intersection. For this reason, the board will automatically zoom when you click it. This behavior is designed to be only active on devices with a small resolution.
+
+Unfortunately, if your computer has a low-ish resolution, the system may also decide to put you on auto-zoom mode. This can be annoying. An easy workaround , is to zoom your webbrowser a little bit. e.g. using Ctrl +/- buttons you can zoom out to 80%. In most cases this is enough to stop it from zooming.
+
