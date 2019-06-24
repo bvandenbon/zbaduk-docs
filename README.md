@@ -92,9 +92,7 @@ Note: the prefered move is not always the one with the highest winrate, the numb
 
 ZBaduk tries to adjust its user interface to get the most out of your system. It will re-arrange items to make the board itself as big as possible. 
 
-Having said that, on smart phones it can be clumsy to click the correct intersection. For this reason, the board will automatically zoom when you click it. This behavior is designed to be only active on devices with a small resolution.
+Having said that, on smart phones it can be clumsy to click the correct intersection. For this reason, the board will automatically zoom when you click it. This behavior is designed to be only active on mobile devices.
 
 ![Auto-Zoom](https://user-images.githubusercontent.com/20482760/59000749-23049a00-880c-11e9-9382-2bfe17d634e2.png)
-
-Unfortunately, if your computer has a low-ish resolution, the system may also decide to put you on auto-zoom mode. This can be annoying. An easy workaround , is to zoom your webbrowser a little bit. e.g. using Ctrl +/- buttons you can zoom out to 80%. In most cases this is enough to stop it from zooming.
 
