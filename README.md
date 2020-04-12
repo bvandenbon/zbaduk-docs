@@ -79,19 +79,22 @@ Once you are connected, 2 buttons become available:
 
 ### Reading statistics
 
-Statistics are shown in a table, and as an overlay on the board.
-
-![Reading statistics](https://user-images.githubusercontent.com/20482760/58881888-6c090100-86db-11e9-9916-51230b687c3d.png)
-
-2 closely related statistics are the "winrate" and the "decision". The winrate estimates the chances for a player to win the game. However, the winrate does not take in account the number of playouts. Sometimes a move with a high winrate may have only a couple of playouts, and may not be very reliable. The decision value by contrast goes one step further than a simple winrate and takes this risk in account.
-
-The winrate and decision value are always shown from the perspective of the active player. _(e.g. If black has a winrate of 40%, but it's white's turn, then it will show 60%.)_
+Statistics are shown as an overlay on the board.
 
 ![Winrates on the board](https://user-images.githubusercontent.com/20482760/79080740-d2a57500-7d17-11ea-926d-fd246c7facc3.jpg)
 
 The move(s) with the highest decision value will be shown in blue. Other move candidates will be shown in colors ranging from green to red. The color is determined by their difference compared to the best move. 
 
 Remark: Even if there is no chance left to win, the best moves will still be shown in green. The actual value does not influence the color, only the difference with the best move impacts the color.
+
+### Winrate vs Decision
+
+2 closely related statistics are the "winrate" and the "decision". The winrate estimates the chances for a player to win the game. However, the winrate does not take in account the number of playouts. Sometimes a move with a high winrate may have only a couple of playouts, and may not be very reliable. The decision value by contrast goes one step further than a simple winrate and takes this risk in account.
+
+By default, the winrate and decision value are shown from the perspective of the active player, and will switch sides with each play. _(e.g. If black has a winrate of 40%, but it's white's turn, then it will show 60%.)_ However, this can be configured to be shown fixed from Black or White's perspective as well. Refer to the "UI Settings" screen for this:
+
+![image](https://user-images.githubusercontent.com/20482760/79080954-590e8680-7d19-11ea-8a10-129a0d1ef3c3.png)
+
 
 ### Zoom
 
