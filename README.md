@@ -10,12 +10,11 @@ Or go directly to https://www.zbaduk.com/register
 
 ## Overview of tools
 
-ZBaduk offers 4 tools.
+ZBaduk offers 3 tools.
 
 1) Bot
-2) Editor
-3) Smart Review
-4) Stored games
+2) Smart Review
+3) Stored games
 
 ## Smart Review
 
@@ -86,6 +85,23 @@ Statistics are shown as an overlay on the board.
 The move(s) with the highest decision value will be shown in blue. Other move candidates will be shown in colors ranging from green to red. The color is determined by their difference compared to the best move. 
 
 Remark: Even if there is no chance left to win, the best moves will still be shown in green. The actual value does not influence the color, only the difference with the best move impacts the color.
+
+### Charts and Table
+
+There is a button-bar which can be used to show/hide the charts and table.
+
+![Toggle tables](https://user-images.githubusercontent.com/20482760/79081199-793f4500-7d1b-11ea-85c8-9aee6820cc5c.png)
+
+Each chart is useful for a particular task.
+
+1. The "winrate chart" is shown from black's perspective, and shows his winning probability throughout the game. This chart is useful for quickly detecting winning/losing moves throughout the game, as those often trigger a drop in the winrate.
+
+2. The "playout chart" is useful to see how many playouts where calculated for a specific move in the game.
+
+3. The "score chart" is only available for KataGo and shows the score from black's perspective throught the game. There are 3 lines to indicate how accurate the score estimation is. If those 3 lines come closer together, outcome of the game becomes more accurate / certain. By contrast if the 3 lines move far apart, the game is complicated and harder to predict.
+
+4. The "AI table" lists the moves and their probabilities according to the bots. This table can also be used to toggle between the statistics of individual bots.
+
 
 ### Winrate vs Decision
 
