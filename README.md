@@ -104,3 +104,9 @@ Having said that, on smart phones it can be clumsy to click the correct intersec
 
 ![Auto-Zoom](https://user-images.githubusercontent.com/20482760/59000749-23049a00-880c-11e9-9382-2bfe17d634e2.png)
 
+### Coordinates
+
+In the "More..." > "UI Settings" menu you can configure how the coordinates should be oriented, or you can hide them as well.
+
+![image](https://user-images.githubusercontent.com/20482760/79081115-accd9f80-7d1a-11ea-96ac-b04d86441e5d.png)
+
