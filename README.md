@@ -87,6 +87,8 @@ Statistics are shown in a table, and as an overlay on the board.
 
 The winrate and decision value are always shown from the perspective of the active player. _(e.g. If black has a winrate of 40%, but it's white's turn, then it will show 60%.)_
 
+![Winrates on the board](https://user-images.githubusercontent.com/20482760/79080740-d2a57500-7d17-11ea-926d-fd246c7facc3.jpg)
+
 The move(s) with the highest decision value will be shown in blue. Other move candidates will be shown in colors ranging from green to red. The color is determined by their difference compared to the best move. 
 
 Remark: Even if there is no chance left to win, the best moves will still be shown in green. The actual value does not influence the color, only the difference with the best move impacts the color.
