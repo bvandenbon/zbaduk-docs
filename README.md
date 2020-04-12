@@ -96,7 +96,7 @@ Each chart is useful for a particular task.
 
 1. The "winrate chart" is shown from black's perspective, and shows his winning probability throughout the game. This chart is useful for quickly detecting winning/losing moves throughout the game, as those often trigger a drop in the winrate.
 
-2. The "playout chart" is useful to see how many playouts where calculated for a specific move in the game.
+2. The "playout chart" is useful to see how many playouts were calculated for a specific move in the game. If the number of playouts is really low, then you may want to move the cursor to that move, and calculate it a bit more with the "Analyze this" option.
 
 3. The "score chart" is only available for KataGo and shows the score from black's perspective throught the game. There are 3 lines to indicate how accurate the score estimation is. If those 3 lines come closer together, outcome of the game becomes more accurate / certain. By contrast if the 3 lines move far apart, the game is complicated and harder to predict.
 
